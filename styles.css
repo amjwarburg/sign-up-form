@@ -1,7 +1,7 @@
 @font-face {
   font-family: "My Font";
   src:
-      url("fonts/HARMONY\ Personal\ use.otf")
+      url("fonts/cotta-free.otf")
       format("opentype");
       font-weight: normal;
       font-style: normal;
@@ -67,8 +67,8 @@
   font-family: "My Font", sans-serif;
   color: rgb(218, 217, 217);
   font-size: 64px;
-  top: 25px;
-  left: 150px;
+  top: 45px;
+  left: 175px;
   z-index: 2;
 }
 
