@@ -7,15 +7,60 @@
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <div class="background-container">
-    <img class="background" src="the-collective-background.jpg" alt="A sheer cliff face with pine trees in the foreground">
-    <div class="banner-container">
-    <div class="banner-heading">The Collective</div>
-    <div class="banner-strip"></div>
-    <div class="logo-container">
-      <img class="logo" src="the-collective-logo.png" alt="A small logo of a stick figure climbing with the aid of ropes">
+  <div class="page-container">
+    <div class="left-hand-side">
+      <div class="background-container">
+        <img class="background" src="the-collective-background.jpg" alt="A sheer cliff face with pine trees in the foreground">
+        <div class="banner-container">
+        <div class="banner-heading">The Collective</div>
+        <div class="banner-strip"></div>
+        <div class="logo-container">
+          <img class="logo" src="the-collective-logo.png" alt="A small logo of a stick figure climbing with the aid of ropes">
+        </div>
+        </div>
+      </div>
+    </div>
+    <div class="right-hand-side">
+      <div class=blurb-container>
+      <p class="blurb">Whether you're clinging to a rockface, hurtling down a mountain trail on your bike or just going for a hillside stroll... you're an outdoor hero! Sign up <em>now</em> to learn more about <strong>The Collective</strong>.</p>
+      <p class="blurb"><strong>You<em> know </em>you want to.</strong></p>
+      </div>
+    <div class="form-container">
+      <form action="action/" method="post">
+        <p class="blurb-2">Let's do this!</p>
+        <div class="row-1">
+          <div class="first-name">
+            <label class="label-text" for="first-name">FIRST NAME</label>
+            <input class="input" type="text" id="first-name" name="first-name">
+          </div>
+          <div class="last-name">
+            <label class="label-text" for="last-name">LAST NAME</label>
+            <input class="input" type="text" id="last-name" name="last-name">
+          </div>
+        </div>
+        <div class="row-2">
+          <div class="email">
+            <label class="label-text" for="email">EMAIL</label>
+            <input class="input" type="email" id="email" name="email">
+          </div>
+          <div class="phone-number">
+            <label class="label-text" for="phone-number">PHONE NUMBER</label>
+            <input class="input" type="tel" id="phone-number" name="phone-number">
+          </div>
+        </div>
+        <div class="row-3">
+          <div class="password">
+            <label class="label-text" for="password">PASSWORD</label>
+            <input class="input" type="password" id="password" name="password">
+          </div>
+          <div class="confirm-password">
+            <label class="label-text" for="confirm-password">CONFIRM PASSWORD</label>
+            <input class="input" type="password" id="confirm-password" name="confirm-password">
+          </div>
+        </div>
+      </form>
     </div>
     </div>
-  </div>
+</div>
 </body>
 </html>

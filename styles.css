@@ -7,6 +7,26 @@
       font-style: normal;
 }
 
+@font-face {
+  font-family: "Blurb Font";
+  src:
+      url("fonts/Ranade-Regular.otf")
+      format("opentype");
+      font-weight: normal;
+      font-style: normal;
+}
+
+.page-container {
+  display: flex;
+  background-color: #F9FAFB;
+}
+
+.background-container {
+  position: static;
+  width: 614px;
+  height: 930px;
+}
+
 .background {
   height: inherit;
   width: 614px;
@@ -50,4 +70,122 @@
   top: 25px;
   left: 150px;
   z-index: 2;
+}
+
+.blurb {
+  font-family: "Blurb Font";
+  font-size: 18px;
+}
+
+.blurb-2 {
+  font-family: "Blurb Font";
+  font-size: 18px;
+  position: relative;
+  left: 125px;
+  top: 15px;
+}
+
+.blurb-container {
+  position: relative;
+  width: 700px;
+  left: 125px;
+  top: 125px;
+}
+
+.form-container {
+  position: relative;
+  top: 175px;
+  background-color: #FFFFFF;
+  filter: drop-shadow(2.5px 2.5px 2.5px rgb(203, 203, 203));
+  height: 225px;
+}
+
+.right-hand-side {
+  width: 1300px;
+}
+
+.label-text {
+  font-family: "Blurb Font";
+  font-size: 10px;
+}
+
+.row-1 {
+  display: flex;
+  width: 500px;
+  justify-content: space-around;
+  position: relative;
+  left: 100px;
+  bottom: 30px;
+}
+
+.first-name {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+  top: 45px;
+}
+
+.last-name {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+  top: 45px;
+}
+
+.row-2 {
+  display: flex;
+  width: 500px;
+  height: 0px;
+  justify-content: space-around;
+  position: relative;
+  left: 100px;
+}
+
+.email {
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+  position: relative;
+  top: 32.5px;
+}
+
+.phone-number {
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+  position: relative;
+  top: 32.5px;
+}
+
+.row-3 {
+  display: flex;
+  width: 500px;
+  height: 0px;
+  justify-content: space-around;
+  position: relative;
+  left: 100px;
+}
+
+.password {
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+  position: relative;
+  top: 88px;
+}
+
+.confirm-password {
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+  position: relative;
+  top: 88px;
+}
+
+.input {
+  -webkit-appearance: none;
+  border: 1px solid #E5E7EB;
+  border-radius: 2px;
 }
