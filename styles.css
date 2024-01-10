@@ -1,3 +1,50 @@
-img, .background {
+@font-face {
+  font-family: "My Font";
+  src:
+      url("fonts/HARMONY\ Personal\ use.otf")
+      format("opentype");
+      font-weight: normal;
+      font-style: normal;
+}
+
+.background-container {
+  width: 100%;
+  position: relative;
+}
+
+.background {
   height: 100vh;
+  width: 32vw;
+  position: relative;
+  z-index: -2;
+}
+
+.banner-strip {
+  position: absolute;
+  top: 225px;
+  height: 15vh;
+  width: 32vw;
+  background-color: #0b0b0b;
+  opacity: 0.5;
+  z-index: 1;
+}
+
+.logo {
+  height: 15vh;
+  width: inherit;
+  top: 225px;
+  left: 65px;
+  filter: invert(100%);
+  z-index: 1;
+  position: absolute;
+}
+
+.banner-heading {
+  position: absolute;
+  font-family: "My Font", sans-serif;
+  color: rgb(218, 217, 217);
+  font-size: 7vh;
+  top: 250px;
+  left: 150px;
+  z-index: 2;
 }
