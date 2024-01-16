@@ -25,42 +25,51 @@
       <p class="blurb">Whether you're clinging to a rockface, hurtling down a mountain trail on your bike or just going for a hillside stroll... you're an outdoor hero! Sign up <em>now</em> to learn more about <strong>The Collective</strong>.</p>
       <p class="blurb"><strong>You<em> know </em>you want to.</strong></p>
       </div>
-    <div class="form-container">
-      <form action="action/" method="post">
-        <p class="blurb-2">Let's do this!</p>
-        <div class="row-1">
-          <div class="first-name">
-            <label class="label-text" for="first-name">FIRST NAME</label>
-            <input class="input" type="text" id="first-name" name="first-name">
+      <div class="form-sign-up-separator">
+        <div class="form-sign-up">
+          <div class="form-container">
+            <form action="action/" method="post" id="form-sign-up">
+            <p class="blurb-2">Let's do this!</p>
+            <div class="row-1">
+            <div class="first-name">
+              <label class="label-text" for="first-name">FIRST NAME <strong>*</strong></label>
+              <input class="input" type="text" id="first-name" name="first-name" required>
+            </div>
+            <div class="last-name">
+              <label class="label-text" for="last-name">LAST NAME <strong>*</strong></label>
+              <input class="input" type="text" id="last-name" name="last-name" required>
+            </div>
+            </div>
+            <div class="row-2">
+            <div class="email">
+              <label class="label-text" for="email">EMAIL <strong>*</strong></label>
+              <input class="input" type="email" id="email" name="email" required>
+            </div>
+            <div class="phone-number">
+              <label class="label-text" for="phone-number">PHONE NUMBER</label>
+              <input class="input" type="tel" id="phone-number" name="phone-number">
+            </div>
+            </div>
+            <div class="row-3">
+            <div class="password">
+              <label class="label-text" for="password" required minlength="5">PASSWORD</label>
+              <input class="input" type="password" id="password" name="password">
+            </div>
+            <div class="confirm-password">
+              <label class="label-text" for="confirm-password" required min-length="5">CONFIRM PASSWORD</label>
+              <input class="input" type="password" id="confirm-password" name="confirm-password">
+            </d</div>
           </div>
-          <div class="last-name">
-            <label class="label-text" for="last-name">LAST NAME</label>
-            <input class="input" type="text" id="last-name" name="last-name">
+          </div>
+          </form>
+          <div class="sign-up">
+            <button type="submit" form="form-sign-up" class="submit-button">Create Account</button>
+            <div class="login">
+            <p class="account">Already have an account? </p><p class="link"><strong><a href="https://www.youtube.com/watch?v=Ka_a8iLx694">Log in</a></strong></p>
+            </div>
           </div>
         </div>
-        <div class="row-2">
-          <div class="email">
-            <label class="label-text" for="email">EMAIL</label>
-            <input class="input" type="email" id="email" name="email">
-          </div>
-          <div class="phone-number">
-            <label class="label-text" for="phone-number">PHONE NUMBER</label>
-            <input class="input" type="tel" id="phone-number" name="phone-number">
-          </div>
-        </div>
-        <div class="row-3">
-          <div class="password">
-            <label class="label-text" for="password">PASSWORD</label>
-            <input class="input" type="password" id="password" name="password">
-          </div>
-          <div class="confirm-password">
-            <label class="label-text" for="confirm-password">CONFIRM PASSWORD</label>
-            <input class="input" type="password" id="confirm-password" name="confirm-password">
-          </div>
-        </div>
-      </form>
+      </div>
     </div>
-    </div>
-</div>
-</body>
+  </body>
 </html>

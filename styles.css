@@ -29,9 +29,10 @@
 
 .background {
   height: inherit;
-  width: 614px;
   position: absolute;
   z-index: 0;
+  object-fit: cover;
+  width: 614px;
 }
 
 .banner-container {
@@ -186,6 +187,68 @@
 
 .input {
   -webkit-appearance: none;
-  border: 1px solid #E5E7EB;
-  border-radius: 2px;
+  border: 2px solid #E5E7EB;
+  border-radius: 3px;
+}
+
+.form-sign-up-separator {
+  display: flex;
+  flex-direction: column;
+}
+
+.sign-up {
+  position: relative;
+  top: 180px;
+}
+
+.login {
+  display: flex;
+}
+
+.submit-button {
+  background-color: #304B2A;
+  color:#F9FAFB;
+  font-weight: bold;
+  font-family: "Blurb Font";
+  width: 180px;
+  height: 40px;
+  position: relative;
+  left: 130px;
+  border: none;
+  border-radius: 7px;
+}
+
+.submit-button:hover {
+  background-color: #22301f;
+}
+
+.submit-button:active {
+  background-color: #0b0b0b;
+}
+
+.account {
+  font-family: "Blurb Font";
+  font-weight: bold;
+  position: relative;
+  left: 125px;
+  top: 15px;
+}
+
+.link {
+  font-family: "Blurb Font";
+  color: #304B2A;
+  position: relative;
+  left: 130px;
+  top: 15px;
+}
+
+.input:focus {
+  -webkit-appearance: none;
+  border: 2px solid #809fed;
+  border-radius: 3px;
+  outline: none;
+}
+
+a:visited {
+  color: #304B2A;
 }
